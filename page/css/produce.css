@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css); /*思源黑體*/
+body{
+
+}
+a, .menu ul li a{
+	font-family: 'Noto Sans TC', sans-serif;
+	
+}
+.pageText{
+	color: white;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.pageH2{
+	border-left: 5px solid #4AA9C3;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.produceArea{
+	position: relative;
+	background-color: white;
+	height: 210px;
+}
+.produceArea p{
+	color:000000;
+	}
+.produceBox .produceArea .imgClass{
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 200px;
+	background-size:auto 140px;
+}
+.produceBox .produceArea .btn{
+	position: absolute;
+	display: block;
+	bottom: 0;
+	background: #EEE;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	color: #555555;
+	border-left: 10px solid #E1E1E1;
+	border-bottom: transparent;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	width: 100%;
+}
+.produceBox .produceArea .btn:hover{
+	border-left: 10px solid #4AA9C3;
+}
+
+
+.menuBox{
+	text-align: left;
+	margin-left: 10px;
+}
+.menuBox h2{
+	font-size:24px;
+	line-height:30px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.menuBox .content{
+	padding:15px;
+}
+.menuBox .content img{
+	float:left;
+	margin:0px 10px 10px 0px;
+	border: 3px solid #555555;
+}
+.menuBox .content ul{
+	list-style-type:none;
+}
+.menuBox .content ul li{
+	border-left: 3px solid #E1E1E1;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+.menuBox .content ul li:hover{
+	border-left: 3px solid #4AA9C3;
+}
+.menuBox .content ul li a{
+	color: #949494;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.more .button{
+	font-size: 15px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+@media only screen and (max-width: 700px) {
+	.menuBox .content{padding: 0px;}
+}
+
+
+footer{
+	padding-top: 10px;
+}
+footer h3{
+	color: #4AA9C3;
+	font-size: 16px;
+}
+/* cover */
+.block02 h2, p, div{
+	color: black;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: left;
+}
+/* characteristic */
+.characteristic h1,h2,h3{
+	border-left: 5px solid #4AA9C3;
+	padding-left: 10px;
+	margin: 10px 0px 10px 10px;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+/* content */
+.content ul li form input[type=submit]{
+	background-color: transparent;
+	border: transparent;
+	color: #949494;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.next{
+	text-align: center;
+}
+.next ul{
+	
+}
+.next ul li{
+	display: inline;
+	border: none;
+}
+.next ul li:hover{
+	border: none;
+}
+.next .n:hover{
+	color: #4AA9C3;
+}

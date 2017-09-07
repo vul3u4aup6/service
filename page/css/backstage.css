@@ -1,0 +1,87 @@
+/* header的css */
+#logo {
+	height: 50px;
+}
+
+/* Radio的美化css */
+input[type="radio"] {
+	display:none;
+}
+input[type="radio"] + label span {
+	display:inline-block;
+	width:19px;
+	height:19px;
+	margin:-1px 4px 0 0;
+	vertical-align:middle;
+	background:url(../images/material/radio_sheet.png) left top no-repeat;
+	cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+	background:url(../images/material/check_radio_sheet.png) left top no-repeat;
+}
+/* 設定class內單張圖片的css */
+.classImg{
+	margin-bottom: 30px;
+}
+.classImg .classArea{
+	position: relative;
+}
+.classImg .classArea .img{
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 200px;
+	background-size:auto 150px;
+}
+.classImg .classArea .checkLabel{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.classImg .classArea .close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.classImg #addBtn{
+	width: 100%;
+	background-color: #45cae7;
+	height: 200px;
+	position: relative;
+}
+.classImg #addBtn .glyphicon{
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	margin-top: -23.5px;
+}
+.classImg #addBtn:hover{
+	background-color: #45cae7;
+	position: relative;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+/* list */
+.bk_list{
+	
+}
+
+.bk_list .listImg{
+	background-repeat:no-repeat;
+	height: 150px;
+	background-size:auto 140px;
+}
+.option {
+	margin-bottom: 10px;
+}
+.option h1 {
+	display: inline;
+	padding-bottom: 10px;
+}
+.option .optionBtn {
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+}

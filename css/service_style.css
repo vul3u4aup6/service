@@ -1,0 +1,28 @@
+.customer_table {
+	table-layout:fixed;
+	word-wrap:break-word;
+	width: 100%;
+	font-weight: normal;
+	color: #333;
+	background-color:#CEFFCE;
+}
+.customer_table thead{
+}
+.customer_table thead th{
+	border-bottom: 2px solid #ccc;
+	padding: 10px 10px 10px 20px;
+}
+.customer_table tbody tr{
+	border-bottom: 1px solid #ccc;
+}
+.customer_table tbody tr:nth-child(odd){
+	background-color: #eee;
+}
+.customer_table tbody tr:nth-child(even){
+	background-color: #fff;
+}
+.customer_table tbody tr td{
+	padding:20px 20px 20px 20px;
+}
+
+
